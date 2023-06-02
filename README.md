@@ -13,24 +13,18 @@ This is a simple password manager script written in Bash. It allows you to store
 
 To use this script, you need to have the following installed on your system:
 
-Bash shell
-OpenSSL
-GnuPG (GPG)
+- Bash shell
+- OpenSSL
+- GnuPG (GPG)
 
 ## Getting Started
 
 Clone this repository to your local machine:
-
 git clone https://github.com/your-username/password-manager.git
-Navigate to the repository directory:
 
 cd password-manager
-Make the script executable:
-
-chmod +x password_manager.sh
-Run the script:
-
-./password_manager.sh
+Make the script executable: chmod +x password_manager.sh
+Run the script: ./password_manager.sh
 
 ## Usage
 
@@ -40,7 +34,7 @@ Upon running the script, you will be presented with a menu of options:
 - View passwords: Displays a list of stored passwords.
 - Delete password: Deletes a password for a specific website or service.
 - Exit: Exits the script.
-  For each option, you will be prompted for necessary inputs such as the website or service name, username, and master password.
+- For each option, you will be prompted for necessary inputs such as the website or service name, username, and master password.
 
 ## Security
 

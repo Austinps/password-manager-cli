@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # This function generates a random password or prompts the user for a password
 generate_password() {
     read -p "Enter password (or press enter to generate a random one): " password
